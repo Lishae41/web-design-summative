@@ -1,0 +1,62 @@
+/* 1. Ensure the browser allows the body to take full screen height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+ 
+/* 2. Center everything vertically and horizontally */
+body {
+    display: flex;
+    justify-content: center; /* Centering left-to-right */
+    align-items: center;     /* Centering top-to-bottom */
+    text-align: center;      /* Forces all text lines to align in the middle */
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+ 
+/* 3. Center section content */
+.services-section {
+    width: 90%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* Keeps input and card container centered */
+    text-align: center;
+}
+ 
+/* 4. Ensure headings and paragraphs explicitly center text */
+h1, h3, p {
+    text-align: center;
+    width: 100%;
+}
+ 
+/* 5. Center search bar */
+#searchInput {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px 15px;
+    margin: 15px 0;
+    text-align: center;     /* Centers the placeholder text inside search bar */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+ 
+/* 6. Center cards layout */
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the individual card boxes */
+    gap: 10px;
+    margin: 15px 0;
+    width: 100%;
+}
+ 
+.service-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 12px 18px;
+    text-align: center;     /* Centers text inside each card */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
