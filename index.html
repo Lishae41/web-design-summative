@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heavens Party Treats | Party  Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="cart.html"></script>
+    <script src="cart.js"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- Header Image Banner (Full width, adjusted height) -->
+        <div class="header-banner" style="width: 100%; overflow: hidden;">
+            <img src="banner.jpeg" 
+                 alt="Heaven Party Treats Banner" 
+                 style="width: 100%; height: 600px; object-fit: cover; display: block;">
+        </div>
+
+        <nav>
+
+            <div class="logo">
+               <h3 style= "color:#d900ff"> Heavens Party Treats</h3>
+            </div>
+
+            <ul class="nav-links">
+
+                <li><a href="#">Home</a></li>
+
+                <li><a href="#products">Shop</a></li>
+
+                <li><a href="about.html">About</a></li>
+
+                <li><a href="gallery.html">Gallery</a></li>
+
+                <li><a href="services.html">Services</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+                <li> 
+                    <a href="cart.html">
+                        Cart (<span id="cart-count">0</span>)
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1 style= "color:#d900ff"> Party Party Party</h1>
+            <p>Your Dreams Manifested Through Our Elegant Work.</p>
+
+            <a href="#products" class="btn">Shop Now</a>
+
+        </div>
+
+    </section>
+
+    </section>
+
+    <section class="products" id="products">
+
+        <h2>Our Services</h2>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+
+                <img src="Circular Arch.jpeg"
+                     alt="Circular Arch">
+
+                <h3>Circular Arch</h3>
+
+                <p>£80.00</p>
+
+                <button onclick="addToCart('Circular Arch', 80.00)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="Rectangular Arch.jpg"
+                     alt="Rectangular Arch">
+
+                <h3>Rectangular Arch</h3>
+
+                <p>£80.00</p>
+
+                <button onclick="addToCart('Rectangular Arch', 80.00)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="Oval Arches.jpeg"
+                     alt="Oval Arch">
+
+                <h3>Oval Arch</h3>
+
+                <p>£80.00</p>
+
+                <button onclick="addToCart('Oval Arch', 80.00)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="Easel.jpeg"
+                     alt="Easel">
+
+                <h3>Easel</h3>
+
+                <p>£55.00</p>
+
+                <button onclick="addToCart('Easel', 55.00)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+           
+            
+            <div class="product-card">
+
+                <img src="White Cylinder Cake Stand 40inches.jpeg"
+                     alt="White Cyclinder Cake Stand 40inches">
+
+                <h3>White Cyclinder Cake Stand 40inches</h3>
+
+                <p>£45.00</p>
+
+                <button onclick="addToCart('White Cyclinder Cake Stand 40inches', 45.00)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+            
+            
+            <div class="product-card">
+
+                <img src="White Chair Covers.jpeg"
+                     alt="White Chair Cover">
+
+                <h3>White Chair Cover</h3>
+
+                <p>£5.00</p>
+
+                <button onclick="addToCart('White Chair Cover', 5.00)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="white tablecloth.jpeg"
+                     alt="White Tablecloth">
+
+                <h3>White Tablecloth</h3>
+
+                <p>£9.50</p>
+
+                <button onclick="addToCart('White Tablecloth', 9.50)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="Candle holders.jpeg"
+                     alt="Candle Holder">
+
+                <h3>Candle Holder</h3>
+
+                <p>£25.00</p>
+
+                <button onclick="addToCart('Candle Holder', 25.00)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="chocolate fountaine.jpeg"
+                     alt="Chocolate Fountaine">
+
+                <h3>Chocolate Fountaine</h3>
+
+                <p>£65.00</p>
+
+                <button onclick="addToCart('Chocolate Fountaine', 65.00)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+             <div class="product-card">
+
+                <img src="Sweet cart.jpeg"
+                     alt="Sweet Cart">
+
+                <h3>Sweet cart</h3>
+
+                <p>£50.00</p>
+
+                <button onclick="addToCart('Sweet cart', 50.00)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="Popcorn maker.jpeg"
+                     alt="Popcorn Maker">
+
+                <h3>Popcorn Maker</h3>
+
+                <p>£120.00</p>
+
+                <button onclick="addToCart('Popcorn Maker', 120.00)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="Cotton Candy Machine.jpeg"
+                     alt="Cotton Candy Machine">
+
+                <h3>Center Piece</h3>
+
+                <p>£120.00</p>
+
+                <button onclick="addToCart('Cotton Candy Machine', 120.00)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <div class="footer-col">
+                <h3>Heavens Party Treats</h3>
+                <p>Your Dreams Manifested Through Our Elegant Work.</p>
+                <div class="newsletter">
+                    <h4>Subscribe to Our Newsletter</h4>
+                    <form action="#" method="POST">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">Join</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#products">Shop Collection</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Customer Care</h3>
+                <ul>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="shipping.html">Shipping Info</a></li>
+                    <li><a href="returns.html">Returns & Exchanges</a></li>
+                    <li><a href="track-order.html">Track Order</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Policies</h3>
+                <ul>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="cookie-policy.html">Cookie Policy</a></li>
+                    <li><a href="accessibility.html">Accessibility</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p> 2026 Heavens Party Treats. All rights reserved.</p>
+        </div>
+
+    </footer>
+  <!-- footer Image Banner (Full width, adjusted height) -->
+        <div class="header-banner" style="width: 100%; overflow: hidden;">
+            <img src="banner.jpeg" 
+            alt="Heaven Party Treats Banner" 
+            style="width: 100%; height: 600px; object-fit: cover; display: block;">
+ 
+<script src="script.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
