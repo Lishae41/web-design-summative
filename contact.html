@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Heavens Party Treats</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <div class="contact-container">
+        <h1>Heavens Party Treats</h1>
+        <p>Let’s make your celebration unforgettable!</p>
+
+        <form id="contactForm">
+            <div class="input-group">
+                <label>Full Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+                <small class="error"></small>
+            </div>
+
+            <div class="input-group">
+                <label>Email</label>
+                <input type="email" id="email" placeholder="Enter your email">
+                <small class="error"></small>
+            </div>
+
+            <div class="input-group">
+                <label>Phone Number</label>
+                <input type="tel" id="phone" placeholder="Enter your number">
+                <small class="error"></small>
+            </div>
+
+            <div class="input-group">
+                <label>Service Needed</label>
+                <select id="service">
+                    <option value="">Select a service</option>
+                    <option>Cakes</option>
+                    <option>Party Decorations</option>
+                    <option>Dessert Table</option>
+                    <option>Full Party Package</option>
+                </select>
+                <small class="error"></small>
+            </div>
+
+            <div class="input-group">
+                <label>Event Date</label>
+                <input type="date" id="date">
+                <small class="error"></small>
+            </div>
+
+            <div class="input-group">
+                <label>Message</label>
+                <textarea id="message" placeholder="Tell us about your event..."></textarea>
+                <small class="error"></small>
+            </div>
+
+            <button type="submit">Send Enquiry</button>
+        </form>
+
+        <p id="successMessage"></p>
+    </div>
+
+    <script src="contact.js"></script>
+</body>
+</html>
