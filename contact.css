@@ -1,0 +1,73 @@
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+ background-image:
+        url("Watermark.jpeg");
+}
+.contact-container {
+    max-width: 550px;
+    margin: 50px auto;
+    background: #ead0f4;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #d900ff;
+}
+
+p {
+    text-align: center;
+    color: #555;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #d900ff;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #d900ff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d900ff;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+#successMessage {
+    text-align: center;
+    color: green;
+    margin-top: 15px;
+}
