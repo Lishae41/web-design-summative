@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Heavens Party Treats</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Main cart badge updater -->
+    <script src="script.js" defer></script> 
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+               <h3 style="color:#d900ff">Heavens Party Treats</h3>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#products">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="max-width: 1200px; margin: 40px auto; padding: 0 20px;">
+        <h2 style="text-align: center; margin-bottom: 20px;">Our Event Gallery</h2>
+
+        <!-- 6 Category Filter Buttons + All -->
+        <div class="gallery-filters" style="text-align: center; margin-bottom: 30px;">
+            <button class="filter-btn active" onclick="filterGallery('all', this)">All</button>
+            <button class="filter-btn" onclick="filterGallery('arches', this)">Arches & Backdrops</button>
+            <button class="filter-btn" onclick="filterGallery('balloon-design', this)">Balloon Design</button>
+            <button class="filter-btn" onclick="filterGallery('party-treats', this)">Party Treats</button>
+            <button class="filter-btn" onclick="filterGallery('gift-basket', this)">Gift Baskets</button>
+            <button class="filter-btn" onclick="filterGallery('centerpieces', this)">Centerpieces</button>
+            <button class="filter-btn" onclick="filterGallery('funeral', this)">Funeral Design</button>
+            <button class="filter-btn" onclick="filterGallery('rentals', this)">Rentals</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid">
+            
+            <!-- Category 1: Arches -->
+            <div class="gallery-item" data-category="arches">
+                <img src="Arch Design.jpeg" alt="Arch">
+                <div class="caption">Arch Design</div>
+            </div>
+            <div class="gallery-item" data-category="arches">
+                <img src="Arch Design 1.jpeg" alt="Arch">
+                <div class="caption">Arch Design 1</div>
+            </div>
+            <div class="gallery-item" data-category="arches">
+                <img src="Arch Design 2.jpeg" alt="Arch">
+                <div class="caption">Arch Design 2</div>
+            </div>
+            <div class="gallery-item" data-category="arches">
+                <img src="Arch Design 3.jpeg" alt="Arch">
+                <div class="caption">Arch Design 3</div>
+            </div>
+            <div class="gallery-item" data-category="arches">
+                <img src="Arch Design 4.jpeg" alt="Arch">
+                <div class="caption">Arch Design 4</div>
+            </div>
+            <div class="gallery-item" data-category="arches">
+                <img src="Arch Design 5.jpeg" alt="Arch">
+                <div class="caption">Arch Design 5</div>
+            </div> 
+            <div class="gallery-item" data-category="arches">
+                <img src="Arch Design 6.jpeg" alt="Arch">
+                <div class="caption">Arch Design 6</div>
+            </div>
+            <div class="gallery-item" data-category="arches">
+                <img src="Arch Design 7.jpeg" alt="Arch">
+                <div class="caption">Arch Design 7</div>
+            </div>
+            <div class="gallery-item" data-category="arches">
+                <img src="Arch Design 8.jpeg" alt="Arch">
+                <div class="caption">Arch Design 8</div>
+            </div>
+            <div class="gallery-item" data-category="arches">
+                <img src="Arch Design 9.jpeg" alt="Arch">
+                <div class="caption">Arch Design 9</div>
+            </div>
+            <div class="gallery-item" data-category="arches">
+                <img src="Arch Design 10.jpeg" alt="Arch">
+                <div class="caption">Arch Design 10</div>
+            </div>
+            <div class="gallery-item" data-category="arches">
+                <img src="Arch Design with Table decor.jpeg" alt="Arch">
+                <div class="caption">Arch Design with Table decor</div>
+            </div>
+             <div class="gallery-item" data-category="arches">
+                <img src="Arch Design with Table decor 1.jpeg" alt="Arch">
+                <div class="caption">Arch Design with Table decor 1</div>
+            </div>
+             <div class="gallery-item" data-category="arches">
+                <img src="Arch Design with Table decor 2.jpeg" alt="Arch">
+                <div class="caption">Arch Design with Table decor 2</div>
+            </div>
+             <div class="gallery-item" data-category="arches">
+                <img src="Arch Design with Table decor 3.jpeg" alt="Arch">
+                <div class="caption">Arch Design with Table decor 3</div>
+            </div>
+            <div class="gallery-item" data-category="arches">
+                <img src="Backdrop.jpeg" alt="Arch">
+                <div class="caption">Backdrop</div>
+            </div>
+            <div class="gallery-item" data-category="arches">
+                <img src="Backdrop 1.jpeg" alt="Arch">
+                <div class="caption">Backdrop 1</div>
+            </div>
+            
+
+            <!-- Category 2: Balloons Design -->
+            <div class="gallery-item" data-category="balloon-design">
+                <img src="Baby Half Birthday.jpeg" alt="Balloon Design">
+                <div class="caption">Baby Half Birthday</div>
+            </div>
+            <div class="gallery-item" data-category="balloon-design">
+                <img src="Number balloons.jpeg" alt="Balloon Design">
+                <div class="caption">Number Balloon</div>
+            </div>
+            <div class="gallery-item" data-category="balloon-design">
+                <img src="Number Balloon 1.jpeg" alt="Balloon Design">
+                <div class="caption">Number Balloon 1</div>
+            </div>
+            <div class="gallery-item" data-category="balloon-design">
+                <img src="Number Balloon 2.jpeg" alt="Balloon Design">
+                <div class="caption">Number Balloon 2</div>
+            </div>
+            <div class="gallery-item" data-category="balloon-design">
+                <img src="Number Balloon 3.jpeg" alt="Balloon Design">
+                <div class="caption">Number Balloon 3</div>
+            </div>
+            <div class="gallery-item" data-category="balloon-design">
+                <img src="Box Design.jpeg" alt="Balloon Design">
+                <div class="caption">Box Design</div>
+            </div>
+
+            <!-- Category 3: Party Treats -->
+            <div class="gallery-item" data-category="party-treats">
+                <img src="Party Bags.jpeg" alt="Party Treats">
+                <div class="caption">Party Bags</div>
+            </div>
+            <div class="gallery-item" data-category="party-treats">
+                <img src="Party Cones.jpeg" alt="Party Treats">
+                <div class="caption">Party Cones</div>
+            </div>
+            <div class="gallery-item" data-category="party-treats">
+                <img src="party confetti.jpeg" alt="Party Treats">
+                <div class="caption">Party Confeetti</div>
+            </div>
+            <div class="gallery-item" data-category="party-treats">
+                <img src="Party Favour.jpeg" alt="Party Treats">
+                <div class="caption">Party Favour</div>
+            </div>
+            <div class="gallery-item" data-category="party-treats">
+                <img src="Party Favour 1.jpeg" alt="Party Treats">
+                <div class="caption">Party Favour 1</div>
+            </div>
+            <div class="gallery-item" data-category="party-treats">
+                <img src="Sweet or cake stand.jpeg" alt="Party Treats">
+                <div class="caption">Sweet or cake stand</div>
+            </div>
+             <div class="gallery-item" data-category="party-treats">
+                <img src="sweetie bottles.jpeg" alt="Party Treats">
+                <div class="caption">Sweetie Bottles</div>
+            </div>
+
+            <!-- Category 4: Gift Basket -->
+            <div class="gallery-item" data-category="gift-basket">
+                <img src="Gift baskets.jpeg" alt="Gift Basket">
+                <div class="caption">Gift baskets</div>
+            </div>
+            <div class="gallery-item" data-category="gift-basket">
+                <img src="Gift basket 1.jpeg" alt="Gift Basket">
+                <div class="caption">Gift basket 1</div>
+            </div>
+            <div class="gallery-item" data-category="gift-basket">
+                <img src="Gift basket 2.jpeg" alt="Gift Basket">
+                <div class="caption">Gift baskets</div>
+            </div>
+            <div class="gallery-item" data-category="gift-basket">
+                <img src="Gift basket 3.jpeg" alt="Gift Basket">
+                <div class="caption">Gift baskets</div>
+            </div>
+
+            <!-- Category 5: Centerpieces -->
+            <div class="gallery-item" data-category="centerpieces">
+                <img src="Center piece.jpeg" alt="Centerpiece">
+                <div class="caption">Center pieces</div>
+            </div>
+             <div class="gallery-item" data-category="centerpieces">
+                <img src="Center piece 1.jpeg" alt="Centerpiece">
+                <div class="caption">Center pieces 1</div>
+            </div>
+             <div class="gallery-item" data-category="centerpieces">
+                <img src="Center piece 2.jpeg" alt="Centerpiece">
+                <div class="caption">Center pieces 2</div>
+            </div>
+             <div class="gallery-item" data-category="centerpieces">
+                <img src="Center piece 3.jpeg" alt="Centerpiece">
+                <div class="caption">Center pieces 3</div>
+            </div>
+             <div class="gallery-item" data-category="centerpieces">
+                <img src="Center piece 4.jpeg" alt="Centerpiece">
+                <div class="caption">Center pieces 4</div>
+            </div>
+            <div class="gallery-item" data-category="centerpieces">
+                <img src="Table decor.jpeg" alt="Centerpiece">
+                <div class="caption">Table Decor</div>
+            </div>
+             <div class="gallery-item" data-category="centerpieces">
+                <img src="cylinder-vases.jpeg" alt="Centerpiece">
+                <div class="caption">Cylinder Vase</div>
+            </div>
+            <div class="gallery-item" data-category="centerpieces">
+                <img src="Christmas table decor.jpeg" alt="Centerpiece">
+                <div class="caption">Christmas Table Decor</div>
+            </div>
+
+
+             <!-- Category 6: Funeral Design -->
+            <div class="gallery-item" data-category="funeral">
+                <img src="Funeral Design.jpeg" alt="Funeral Design">
+                <div class="caption">Funeral Design</div>
+            </div>
+            <div class="gallery-item" data-category="funeral">
+                <img src="Funeral Design 1.jpeg" alt="Funeral Design">
+                <div class="caption">Funeral Design 1</div>
+            </div>
+            <div class="gallery-item" data-category="funeral">
+                <img src="Funeral Design 2.jpeg" alt="Funeral Design">
+                <div class="caption">Funeral Design 2</div>
+            </div>
+            <div class="gallery-item" data-category="funeral">
+                <img src="Funeral Design 3.jpeg" alt="Funeral Design">
+                <div class="caption">Funeral Design 3</div>
+            </div>
+             <div class="gallery-item" data-category="funeral">
+                <img src="Funeral Design 4.jpeg" alt="Funeral Design">
+                <div class="caption">Funeral Design 4</div>
+            </div>
+             
+
+            <!-- Category 7: Rentals -->
+            <div class="gallery-item" data-category="rentals">
+                <img src="Circular Arch.jpeg" alt="Rentals">
+                <div class="caption">Circular Arch</div>
+            </div>
+            <div class="gallery-item" data-category="rentals">
+                <img src="Rectangular Arch.jpg" alt="Rentals">
+                <div class="caption">Rectangular Arch</div>
+            </div>
+            <div class="gallery-item" data-category="rentals">
+                <img src="Oval Arches.jpeg" alt="Oval Arch">
+                <div class="caption">Oval Arch</div>
+            </div>
+            <div class="gallery-item" data-category="rentals">
+                <img src="Cotton Candy Machine.jpeg" alt="Rentals">
+                <div class="caption">Centerpieces</div>
+            </div>
+            <div class="gallery-item" data-category="rentals">
+                <img src="chocolate fountaine.jpeg" alt="Rentals">
+                <div class="caption">Chocolate Fountain</div>
+            </div>
+            <div class="gallery-item" data-category="rentals">
+                <img src="Popcorn maker.jpeg" alt="Rentals">
+                <div class="caption">Popcorn Maker</div>
+            </div>
+            <div class="gallery-item" data-category="rentals">
+                <img src="White Cylinder Cake Stand 40inches.jpeg" alt="Rentals">
+                <div class="caption">White Cylinder Stand</div>
+            </div>
+            <div class="gallery-item" data-category="rentals">
+                <img src="Sweet cart.jpeg" alt="Rentals">
+                <div class="caption">Sweet Cart</div>
+            </div>
+            <div class="gallery-item" data-category="rentals">
+                <img src="Easel.jpeg" alt="Rentals">
+                <div class="caption">Easel</div>
+            </div>
+             <div class="gallery-item" data-category="rentals">
+                <img src="Candle holders.jpeg" alt="Rentals">
+                <div class="caption">Candle Holders</div>
+            </div>
+             <div class="gallery-item" data-category="rentals">
+                <img src="White Chair Covers.jpeg" alt="Rentals">
+                <div class="caption">White Chair Covers</div>
+            </div>
+             <div class="gallery-item" data-category="rentals">
+                <img src="white tablecloth.jpeg" alt="Rentals">
+                <div class="caption">White Tablecloth</div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Gallery Filtering Script loaded at the VERY bottom -->
+    <script src="gallery.js"></script>
+    </body>
+</html>
